@@ -23,16 +23,16 @@ default: &default
 
 development:
   <<: *default
-  database: ror_capstone_project_budget_app_development
+  database: ror_capstone_project_budget_app
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user running Rails.
-  #username: ror_capstone_project_budget_app
+  username: postgres
 
   # The password associated with the postgres role (username).
-  #password:
+  password: postgres
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -81,6 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: ror_capstone_project_budget_app_production
+  database: ror-_capstone_project_budget_app_prod
   username: ror_capstone_project_budget_app
   password: <%= ENV["ROR_CAPSTONE_PROJECT_BUDGET_APP_DATABASE_PASSWORD"] %>
