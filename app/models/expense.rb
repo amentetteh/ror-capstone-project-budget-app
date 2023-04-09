@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class Expense < ApplicationRecord
   has_many :group_expenses, dependent: :destroy
   has_many :groups, through: :group_expenses
