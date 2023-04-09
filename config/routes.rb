@@ -10,5 +10,5 @@ Rails.application.routes.draw do
   resources :groups do
     resources :expenses
   end
-  root "splash#index"
+  root 'splash#index'
 end
