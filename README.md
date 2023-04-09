@@ -33,7 +33,7 @@
 
 # 📖 MY RECIPE APP <a name="about-project"></a>
 
-> The Recipe app keeps track of all your recipes, ingredients, and inventory. It allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.
+> The Buget app is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
 
 
@@ -140,7 +140,7 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  bin/rails rspec spec
 ```
 
 
