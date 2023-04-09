@@ -70,8 +70,8 @@
 > The project has the following features.
 
 - **Login page and registration page**
-- **Display a list of recipes created by the logged-in user**
-- **display a list of all public recipes**
+- **Create a budget category**
+- **Add transactions to categories**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,9 +163,9 @@ To run tests, run the following command:
 
 > The following will be implemented on future updates.
 
--  **Users will be able to share videos of the recipe**
--  **Follow users**
-- **Add chat functionality**
+-  **Add log out feature**
+-  **Add delete categories and transactions feature**
+- **Better UI**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,7 +191,7 @@ If you like this project feel free to star the projecta and request improve ment
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank me for beign focus and having a positive mind to learn new things.
+Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
